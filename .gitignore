@@ -1,1 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# IDEs (VS Code & PyCharm)
+.vscode/
+.idea/
+
+# Betriebssysteme
 .DS_Store
+Thumbs.db
+
+# Daten & Logs (Sehr wichtig für Data Engineering!)
+*.log
+data/
+temp/
+out/
+*.csv
+*.parquet
+*.sqlite
